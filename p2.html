@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>computer architecture
+</title>
+
+
+</head>
+<body >
+	<h1>computer architecture (Data-Level Parallelism in Vector, SIMD, and GPU Architectures)
+</h1>
+	<h2>links</h2>
+	<ul>
+  <li><a href="index.html">main page</a></li>
+  </li><a href="p1.html">introduction of Data-Level Parallelism in Vector, SIMD, and GPU Architectures</a></li>
+  <li><a href="p2.html">Data-Level Parallelism in Vector, SIMD, and GPU Architectures table</a></li>
+   <li><a href="p3.html">Data-Level Parallelism in Vector, SIMD, and GPU Architectures image</a></li>
+   <li><a href="p4.html">Data-Level Parallelism in Vector, SIMD, and GPU Architectures (Historical Perspective and References)</a></li>
+   
+</ul>
+ 
+
+<table style="width:100%;">
+ 
+  <tr >
+    <th class="ss" >technique</th>
+    <th class="ss" >reduces</th>
+	<th>section</th>
+    
+  </tr>
+  <tr>
+    <td>Forwarding and bypassing</td>
+    <td>Potential data hazard stalls</td>
+	<td>C.2</td>
+  </tr>
+   <tr>
+    <td>Delayed branches and simple branch scheduling</td>
+    <td>Control hazard stalls</td>
+	<td>C.2</td>
+  </tr>
+   <tr>
+    <td>Basic compiler pipeline scheduling</td>
+    <td>Data hazard stalls</td>
+	<td>C.2, 3.2</td>
+  </tr>
+   <tr>
+    <td>Basic dynamic scheduling (scoreboarding)</td>
+    <td>Data hazard stalls from true dependences</td>
+	<td>C.7</td>
+  </tr>
+   <tr>
+    <td>Loop unrolling</td>
+    <td>Control hazard stalls</td>
+	<td>3.2</td>
+  </tr>
+   <tr>
+    <td>Branch prediction</td>
+    <td>Control stalls</td>
+	<td>3.3</td>
+  </tr>
+   <tr>
+    <td>Dynamic scheduling with renaming</td>
+    <td>Stalls from data hazards, output dependences, and 
+antidependences</td>
+	<td>3.4</td>
+  </tr>
+   <tr>
+    <td>Hardware speculation</td>
+    <td>Data hazard and control hazard stalls</td>
+	<td>3.6</td>
+  </tr>
+   <tr>
+    <td>Dynamic memory disambiguation</td>
+    <td>Data hazard stalls with memory</td>
+	<td>3.6</td>
+  </tr>
+   <tr>
+    <td>Issuing multiple instructions per cycle</td>
+    <td>Ideal CPI</td>
+	<td>3.7, 3.8</td>
+  </tr>
+  <tr>
+    <td>Compiler dependence analysis, software 
+pipelining, trace scheduling</td>
+    <td>Ideal CPI, data hazard stalls</td>
+	<td>H.2, H.3</td>
+  </tr>
+  <tr>
+    <td>Hardware support for compiler speculation</td>
+    <td>Ideal CPI, data hazard stalls, branch hazard stalls</td>
+	<td>H.4, H.5</td>
+  </tr>
+  
+  
+</table>
+</body>
+</html>
